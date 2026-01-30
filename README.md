@@ -6,6 +6,8 @@ Through our experiments, we found that DQN was able to stably trend towards lear
 
 Full Report: https://drive.google.com/drive/folders/1oHrXCuJsk4BufytiTnGT-grZL5PK5WuA?usp=sharing
 
+Project Code: https://drive.google.com/drive/folders/1oHrXCuJsk4BufytiTnGT-grZL5PK5WuA?usp=sharing
+
 Forked from: https://github.com/seermer/HollowKnight_RL
 
 Motivation
@@ -32,4 +34,3 @@ In addition to these techniques, the use of Rainbow DQN, as outlined by Hessel e
 In addition to the general reinforcement learning techniques discussed above, Proximal Policy Optimization (PPO), introduced by Schulman et al. (2017), has been a key algorithm in reinforcement learning due to its stability and efficiency in high-dimensional environments. PPO balances exploration and exploitation by using a surrogate objective function with a clipping mechanism, ensuring that policy updates are stable while still allowing for effective learning. This makes PPO particularly suited for environments like Hollow Knight, where real-time decision-making and adaptability are critical. Schulman et al. demonstrated the utility of PPO in various applications, and its application could provide promising results for training agents in such dynamic, action-packed settings (Schulman et al., 2017).
 The team ultimately did not get to incorporate the above two due to circumstances but hope to do so later in their free time. Combining these insights from the literature, this project aims to apply and expand upon existing RL techniques to train an agent capable of mastering the complex environments and boss fights in Hollow Knight. The combination of PPO, DQN, optical flow, and feature extraction methods offers a promising approach for developing a high-performing RL agent that can navigate the challenges of the game’s dynamic environment.
 
-Read more here: https://drive.google.com/drive/folders/1oHrXCuJsk4BufytiTnGT-grZL5PK5WuA?usp=sharing
